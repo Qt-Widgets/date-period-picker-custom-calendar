@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/datepicker_translations">
+        <file alias="ru">locale/datepicker_ru.qm</file>
+        <file alias="en">locale/datepicker_en.qm</file>
+    </qresource>
+    <qresource prefix="/datepicker_icons">
+        <file alias="calendar-button-icon">icons/calendar-button-icon.png</file>
+    </qresource>
+</RCC>
