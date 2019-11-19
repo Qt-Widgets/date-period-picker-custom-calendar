@@ -1,23 +1,29 @@
-Виджет выбора даты/периода
+Date / Period Widget
 ==========================
 
-Подробный пример использования можно найти [здесь](/source/unit-test/main.cpp)
+Original Repository: https://github.com/dmitrytoropchin/datepicker
 
-Основный классы
+A detailed usage example can be found [here](/datepicker_test/main.cpp)
+
+Core classes
 ---------------
 
-*	[DatePicker](/source/library/source/datepicker/datepicker.h)
+*	[DatePicker](/datepicker_library/source/include/datepicker.h)
 
-	Виджет выбора даты/периода при помощи выпадающего календаря
+	Date / period widget using the drop-down calendar
 
-*	[DatePickerStandardFormater](/source/library/source/datepicker/datepickerstandardformater.h)
+*	[DatePickerStandardFormater](/datepicker_library/source/include/datepickerstandardformater.h)
 
-	Класс для вывода дат на экран на основе метода `QDate::toString(const QString &format)`.
+	A class for displaying dates based on a method `QDate::toString(const QString &format)`.
 
-*	[DatePickerHumanReadableFormater](/source/library/source/datepicker/datepickerhumanreadableformater.h)
+*	[DatePickerHumanReadableFormater](/datepicker_library/source/include/datepickerhumanreadableformater.h)
 
-	Класс вывода дат в удобном для чтения формате.
+	The date output class in a readable format.
 
-*	[DatePickerAbstractFormater](/source/library/source/datepicker/datepickerabstractformater.h)
+*	[DatePickerAbstractFormater](/datepicker_library/source/include/datepickerabstractformater.h)
 
-	Базовый класс для написания собственных преобразователей дат в строку.
+	The base class for writing custom date to string converters.
+
+![screenshot](https://github.com/Qt-Widgets/date-period-picker-custom-calendar/blob/master/Screenshot1.PNG)
+
+![screenshot](https://github.com/Qt-Widgets/date-period-picker-custom-calendar/blob/master/Screenshot2.PNG)
